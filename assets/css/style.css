@@ -1,0 +1,84 @@
+:root {
+    --primary-color: #202030;
+    --secondary-color: #4DA1A9;
+    --tertiary-color: #F8F7FF;
+    --quaternary-color: #61E786;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: var(--secondary-color)
+}
+
+/* header style */
+header {
+    padding: 25px 0px;
+    height: 100px;
+    background-color: var(--primary-color);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--secondary-color);
+  }
+
+header h1 a {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--tertiary-color);
+    background-color: var(--secondary-color);
+    margin: 0;
+    padding: 10px 10px 10px 60px;
+    border-radius: 0 10px 10px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+  header nav ul li a {
+    margin: 0px 30px;
+    padding: 0px 5px;
+    font-weight: lighter;
+    font-size: 1.6vw;
+    border-bottom: 2px solid var(--secondary-color);
+  }
+
+  /* hero style */
+  .hero {
+    background-image: url('../images/milky-way-hero.jpeg');
+    background-position: center;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  .hero-subtitle {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--tertiary-color);
+    background-color: var(--secondary-color);
+    padding: 10px 60px 10px 10px;
+    border-radius: 10px 0 0 10px;
+    margin-bottom: 15px;
+  }
+
+  /* about me style */
+.about-me {
+  background-color: var(--primary-color);
+  height: 300px;
+  display: flex;
+  
+}
