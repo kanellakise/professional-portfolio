@@ -13,7 +13,8 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
-    color: var(--secondary-color)
+    color: var(--secondary-color);
+    background-color: var(--primary-color)
 }
 
 /* header style */
@@ -21,6 +22,9 @@ header {
     padding: 25px 0px;
     height: 100px;
     background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header a {
@@ -28,7 +32,7 @@ header a {
     color: var(--secondary-color);
   }
 
-header h1 a {
+header h1 {
     font-weight: bold;
     font-size: 36px;
     color: var(--tertiary-color);
@@ -58,8 +62,8 @@ header h1 a {
   .hero {
     background-image: url('../images/milky-way-hero.jpeg');
     background-position: center;
+    background-size: cover;
     height: 350px;
-    width: 100%;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
@@ -77,8 +81,24 @@ header h1 a {
 
   /* about me style */
 .about-me {
-  background-color: var(--primary-color);
   height: 300px;
   display: flex;
-  
+  justify-content: space-around;
+align-items: center;
+}
+
+.about-me h2 {
+    width: 10%;
+    text-align: right;
+    padding: 10px;
+    border-right: 5px solid var(--secondary-color);
+    height: 230px;
+
+}
+
+.about-me p {
+    text-align: left;
+    text-indent: 30px;
+    font-size: 1.2em;
+    width: 75%;
 }
