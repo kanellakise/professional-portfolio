@@ -1,104 +1,150 @@
 :root {
-    --primary-color: #202030;
-    --secondary-color: #4DA1A9;
-    --tertiary-color: #F8F7FF;
-    --quaternary-color: #61E786;
+--primary-color: #202030;
+--secondary-color: #4DA1A9;
+--tertiary-color: #F8F7FF;
+--quaternary-color: #61E786;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
-    color: var(--secondary-color);
-    background-color: var(--primary-color)
+  font-family: Helvetica, Arial, sans-serif;
+  color: var(--secondary-color);
+  background-color: var(--primary-color)
 }
 
 /* header style */
 header {
-    padding: 25px 0px;
-    height: 100px;
-    background-color: var(--primary-color);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  padding: 25px 0px;
+  height: 100px;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header a {
-    text-decoration: none;
-    color: var(--secondary-color);
-  }
+  text-decoration: none;
+  color: var(--secondary-color);
+}
 
 header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: var(--tertiary-color);
-    background-color: var(--secondary-color);
-    margin: 0;
-    padding: 10px 10px 10px 60px;
-    border-radius: 0 10px 10px 0;
-  }
+  font-weight: bold;
+  font-size: 36px;
+  color: var(--tertiary-color);
+  background-color: var(--secondary-color);
+  margin: 0;
+  padding: 10px 10px 10px 60px;
+  border-radius: 0 10px 10px 0;
+}
   
-  header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: center;
-    list-style: none;
-  }
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
 
-  header nav ul li a {
-    margin: 0px 30px;
-    padding: 0px 5px;
-    font-weight: lighter;
-    font-size: 1.6vw;
-    border-bottom: 2px solid var(--secondary-color);
-  }
+header nav ul li a {
+  margin: 0px 30px;
+  padding: 0px 5px;
+  font-weight: lighter;
+  font-size: 1.6vw;
+  border-bottom: 2px solid var(--secondary-color);
+}
 
-  /* hero style */
-  .hero {
-    background-image: url('../images/milky-way-hero.jpeg');
-    background-position: center;
-    background-size: cover;
-    height: 350px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-  }
+/* hero style */
+.hero {
+  background-image: url('../images/milky-way-hero.jpeg');
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
 
-  .hero-subtitle {
-    font-weight: bold;
-    font-size: 36px;
-    color: var(--tertiary-color);
-    background-color: var(--secondary-color);
-    padding: 10px 60px 10px 10px;
-    border-radius: 10px 0 0 10px;
-    margin-bottom: 15px;
-  }
+.hero-subtitle {
+  font-weight: bold;
+  font-size: 36px;
+  color: var(--tertiary-color);
+  background-color: var(--secondary-color);
+  padding: 10px 60px 10px 10px;
+  border-radius: 10px 0 0 10px;
+  margin-bottom: 15px;
+}
 
-  /* about me style */
+/* about me style */
 .about-me {
   height: 300px;
   display: flex;
   justify-content: space-around;
-align-items: center;
+  align-items: center;
 }
 
 .about-me h2 {
-    width: 10%;
-    text-align: right;
-    padding: 10px;
-    border-right: 5px solid var(--secondary-color);
-    height: 230px;
+  width: 10%;
+  text-align: right;
+  padding: 10px;
+  border-right: 5px solid var(--quaternary-color);
+  height: 230px;
 
 }
 
 .about-me p {
-    text-align: left;
-    text-indent: 30px;
-    font-size: 1.2em;
-    width: 75%;
+  text-align: left;
+  text-indent: 30px;
+  font-size: 1.2em;
+  width: 75%;
+}
+
+/* work section style */
+.workSection {
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.workSection h2 {
+  width: 10%;
+  text-align: right;
+  padding: 10px;
+  border-right: 5px solid var(--quaternary-color);
+  height: 230px;
+}
+
+.workSection div {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: 
+}
+
+.destinyRunway {
+  background-image: url('../images/milky-way-hero.jpeg');
+}
+
+.clandestine {
+  background-image: url('../images/milky-way-hero.jpeg');
+
+}
+
+.soulOnFire {
+  background-image: url('../images/milky-way-hero.jpeg');
+
+}
+
+.travel {
+  background-image: url('../images/milky-way-hero.jpeg');
+
+}
+
+.webQuiz {
+  background-image: url('../images/milky-way-hero.jpeg');
+
 }
