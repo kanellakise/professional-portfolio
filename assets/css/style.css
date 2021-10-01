@@ -105,7 +105,7 @@ header nav ul li a {
 
 /* work section style */
 .workSection {
-  height: 500px;
+  height: 1000px;
   display: flex;
   justify-content: space-around;
 }
@@ -115,22 +115,22 @@ header nav ul li a {
   text-align: right;
   padding: 10px;
   border-right: 5px solid var(--quaternary-color);
-  height: 230px;
+  height: 500px;
 }
 
 .workSection div {
   width: 75%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: 
+  justify-content: space-around;
 }
 
 .destinyRunway {
-  background-image: url('../images/milky-way-hero.jpeg');
+  background-image: url('../images/titan.jpeg');
 }
 
 .clandestine {
-  background-image: url('../images/milky-way-hero.jpeg');
+  background-image: url('../images/frostFist.jpeg');
 
 }
 
@@ -140,11 +140,23 @@ header nav ul li a {
 }
 
 .travel {
-  background-image: url('../images/milky-way-hero.jpeg');
+  background-image: url('../images/jacksonHole.jpeg');
 
 }
 
 .webQuiz {
   background-image: url('../images/milky-way-hero.jpeg');
 
+}
+
+#primaryProject {
+  height: 300px;
+  width: 90%;
+  background-size: cover;
+}
+
+.secondaryProject {
+  height: 300px;
+  width: 45%;
+  background-size: cover;
 }
