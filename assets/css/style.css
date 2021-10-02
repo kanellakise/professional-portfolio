@@ -17,19 +17,15 @@ body {
   background-color: var(--primary-color)
 }
 
-/* header style */
-header {
+/* header and footer link style */
+.headerFooter {
   padding: 25px 0px;
   height: 100px;
   background-color: var(--primary-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-header a {
-  text-decoration: none;
-  color: var(--secondary-color);
+  background-color: #181824; 
 }
 
 header h1 {
@@ -42,7 +38,7 @@ header h1 {
   border-radius: 0 10px 10px 0;
 }
   
-header nav ul {
+.lists {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -50,12 +46,21 @@ header nav ul {
   list-style: none;
 }
 
-header nav ul li a {
+.lists a {
+  text-decoration: none;
+  color: var(--secondary-color);
   margin: 0px 30px;
   padding: 0px 5px;
   font-weight: lighter;
   font-size: 1.6vw;
   border-bottom: 2px solid var(--secondary-color);
+}
+
+.lists a:hover {
+  background-color: var(--quaternary-color);
+  color: var(--primary-color);
+  border-radius: 5px;
+  border: none;
 }
 
 /* hero style */
@@ -81,18 +86,19 @@ header nav ul li a {
 
 /* about me style */
 .about-me {
-  height: 300px;
+  height: 500px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.about-me h2 {
+.bodyTitle {
   width: 10%;
   text-align: right;
   padding: 10px;
   border-right: 5px solid var(--quaternary-color);
   height: 230px;
+  color: var(--quaternary-color);
 
 }
 
@@ -111,10 +117,6 @@ header nav ul li a {
 }
 
 .workSection h2 {
-  width: 10%;
-  text-align: right;
-  padding: 10px;
-  border-right: 5px solid var(--quaternary-color);
   height: 500px;
 }
 
@@ -149,14 +151,25 @@ header nav ul li a {
 
 }
 
-#primaryProject {
+/* work project styling */
+.project {
   height: 300px;
-  width: 90%;
+  opacity: .5;
+  border-radius: 10px;
   background-size: cover;
 }
 
+.project:hover {
+  opacity: 1;
+  border: 5px solid var(--quaternary-color);
+  border-radius: 10px;
+}
+
+#primaryProject {
+  width: 95%;
+}
+
 .secondaryProject {
-  height: 300px;
   width: 45%;
   background-size: cover;
 }
