@@ -28,7 +28,7 @@ body {
   background-color: #181824; 
 }
 
-header h1 {
+.leftSideTitle {
   font-weight: bold;
   font-size: 36px;
   color: var(--tertiary-color);
@@ -129,25 +129,26 @@ header h1 {
 
 .destinyRunway {
   background-image: url('../images/titan.jpeg');
+  background-position: 10% 10%;
 }
 
 .clandestine {
   background-image: url('../images/frostFist.jpeg');
-
+  background-position: 10% 20%;
 }
 
 .soulOnFire {
-  background-image: url('../images/milky-way-hero.jpeg');
+  background-image: url('../images/soulOnFire.jpg');
 
 }
 
 .travel {
   background-image: url('../images/jacksonHole.jpeg');
-
+  background-position: 10% 50%
 }
 
-.webQuiz {
-  background-image: url('../images/milky-way-hero.jpeg');
+.run-buddy {
+  background-image: url('../images/run-buddy.jpg');
 
 }
 
@@ -172,4 +173,9 @@ header h1 {
 .secondaryProject {
   width: 45%;
   background-size: cover;
+}
+
+/* additional footer style */
+#contact-me-nav {
+  font-size: 25px;
 }
