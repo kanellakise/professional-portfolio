@@ -61,6 +61,7 @@ body {
   color: var(--primary-color);
   border-radius: 5px;
   border: none;
+  padding: 10px;
 }
 
 /* hero style */
@@ -86,7 +87,7 @@ body {
 
 /* about me style */
 .about-me {
-  height: 500px;
+  height: 400px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -99,7 +100,6 @@ body {
   border-right: 5px solid var(--quaternary-color);
   height: 230px;
   color: var(--quaternary-color);
-
 }
 
 .about-me p {
@@ -111,7 +111,7 @@ body {
 
 /* work section style */
 .workSection {
-  height: 1000px;
+  height: 1600px;
   display: flex;
   justify-content: space-around;
 }
@@ -154,16 +154,31 @@ body {
 
 /* work project styling */
 .project {
-  height: 300px;
+  height: 500px;
   opacity: .5;
   border-radius: 10px;
   background-size: cover;
+  display: flex;
+  align-items: flex-end;
 }
 
 .project:hover {
   opacity: 1;
   border: 5px solid var(--quaternary-color);
   border-radius: 10px;
+}
+
+.project a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--primary-color);
+  background-color: var(--quaternary-color);
+  height: 40px;
+  width: auto;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 0 5px 5px 0;
 }
 
 #primaryProject {
@@ -178,4 +193,53 @@ body {
 /* additional footer style */
 #contact-me-nav {
   font-size: 25px;
+}
+
+/* Media query for smaller desktop screens and smaller */
+@media screen and (max-width: 980px) {
+
+  /* header {
+    position: relative;
+  }
+  */
+
+  .workSection {
+    height: 1000px;
+  }
+
+  .project {
+    height: 300px;
+    
+  }
+
+}
+
+@media screen and (max-width: 980px) {
+  .headerFooter {
+    flex-direction: column;
+    height: 150px;
+  }
+
+  .headerFooter .leftSideTitle {
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .about-me {
+    flex-direction: column;
+  }
+
+  .bodyTitle {
+    border-right: 0px;
+    border-bottom: 5px solid var(--quaternary-color);
+    width: 80%;
+    height: 45px;
+    text-align: center;
+  }
+
+  .workSection {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
 }
