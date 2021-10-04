@@ -127,6 +127,10 @@ body {
   justify-content: space-around;
 }
 
+.workSection article {
+  width: 45%
+}
+
 .destinyRunway {
   background-image: url('../images/titan.jpeg');
   background-position: 10% 10%;
@@ -168,7 +172,7 @@ body {
   border-radius: 10px;
 }
 
-.project a {
+.project p {
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
@@ -186,7 +190,6 @@ body {
 }
 
 .secondaryProject {
-  width: 45%;
   background-size: cover;
 }
 
@@ -267,7 +270,7 @@ body {
     margin: 20px 0px;
   }
 
-  .secondaryProject {
+  .workSection article {
     width: 95%;
   }
 
