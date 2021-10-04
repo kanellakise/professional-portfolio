@@ -75,6 +75,14 @@ body {
   justify-content: flex-end;
 }
 
+.hero img {
+  height: 100px;
+  width: 100px;
+  left: 3px;
+  top: 150px;
+  position: fixed;
+}
+
 .hero-subtitle {
   font-weight: bold;
   font-size: 36px;
@@ -251,6 +259,10 @@ body {
     margin: 20px 0px;
     height: 200px;
   }
+
+  .hero img {
+    left: -10px;
+  }
 }
 
 /* media query for phones and smaller */
@@ -272,6 +284,12 @@ body {
 
   .workSection article {
     width: 95%;
+  }
+
+  .hero img {
+    height: 75px;
+    width: 75px;
+    left: 0px;
   }
 
 }
