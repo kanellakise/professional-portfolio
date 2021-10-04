@@ -198,10 +198,9 @@ body {
 /* Media query for smaller desktop screens and smaller */
 @media screen and (max-width: 980px) {
 
-  /* header {
+  header {
     position: relative;
   }
-  */
 
   .workSection {
     height: 1000px;
@@ -214,7 +213,8 @@ body {
 
 }
 
-@media screen and (max-width: 980px) {
+/* media query for tablets and smaller */
+@media screen and (max-width: 768px) {
   .headerFooter {
     flex-direction: column;
     height: 150px;
@@ -227,6 +227,7 @@ body {
 
   .about-me {
     flex-direction: column;
+    margin: 40px 0px;
   }
 
   .bodyTitle {
@@ -240,6 +241,34 @@ body {
   .workSection {
     flex-direction: column;
     align-items: center;
-    height: auto;
+    height: 750px;
   }
+
+  .project {
+    margin: 20px 0px;
+    height: 200px;
+  }
+}
+
+/* media query for phones and smaller */
+@media screen and (max-width: 575px) {
+  .lists a {
+    font-size: 2.5vw;
+    margin: 0px 10px;
+  }
+
+  .workSection {
+    flex-direction: column;
+    align-items: center;
+    height: 1250px;
+  }
+
+  .project {
+    margin: 20px 0px;
+  }
+
+  .secondaryProject {
+    width: 95%;
+  }
+
 }
