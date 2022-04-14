@@ -71,16 +71,17 @@ body {
   background-size: cover;
   height: 350px;
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
+  /* align-items: flex-end; */
+  justify-content: space-between;
 }
 
 .hero img {
-  height: 100px;
-  width: 100px;
-  left: 3px;
-  top: 150px;
-  position: fixed;
+  height: 20rem;
+  width: 15rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  align-self: flex-start;
+  border-radius: 10px 10px;
 }
 
 .hero-subtitle {
@@ -91,6 +92,7 @@ body {
   padding: 10px 60px 10px 10px;
   border-radius: 10px 0 0 10px;
   margin-bottom: 15px;
+  align-self: flex-end;
 }
 
 /* about me style */
@@ -176,6 +178,7 @@ body {
   background-size: cover;
   display: flex;
   align-items: flex-end;
+  text-decoration: none;
 }
 
 .project:hover {
