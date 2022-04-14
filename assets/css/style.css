@@ -164,6 +164,10 @@ body {
 
 }
 
+.yeOldeTechBlog {
+  background-image: url('../images/yeOldeTechBlog.png');
+}
+
 /* work project styling */
 .project {
   height: 500px;
